@@ -1,0 +1,28 @@
+{
+    "name": "pwa",
+    "start_url": "./",
+    "display": "standalone",
+    "background_color" : "blue",
+    "icons":[
+        {
+            "src": "assets/logo/SKILLHUB-48-48.png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "assets/logo/SKILLHUB-72-72.png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "assets/logo/SKILLHUB-96-96.png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "assets/logo/SKILLHUB-144-144.png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "assets/logo/SKILLHUB-192-192.png",
+            "sizes": "192x192"
+        }
+    ]
+}

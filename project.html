@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap By SKILLHUB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+      .menu{
+        transition: all 300ms;
+        
+      }
+      .menu:hover{
+        background-color: white;
+        border-radius: 0.5rem;
+      }
+    </style>
+
+    <link rel="manifest" href="manifest.json">
+
+    
+  </head>
+  <body>
+    <!-- search start -->
+    <div class="collapse" id="search">
+        <div class="alert alert-primary mb-0" >
+        <div class="container">
+        <div class="input-group">
+      <span class="input-group-text" id="id">@</span>
+      <input type="text" class="form-control" placeholder="Username" >
+      <button type="button" class="btn btn-primary" ><i class="bi bi-search"></i></button>
+    </div>
+    <h3 class="my-3">Quick Links</h3>
+   <div class="row">
+    <div class="col-sm-3">
+        <a href="" class="text-decoration-none d-block my-2 text">link 1</a>
+        <a href="" class="text-decoration-none d-block my-2 text">link 2</a>
+        <a href="" class="text-decoration-none d-block my-2 text">link 3</a>
+        <a href="" class="text-decoration-none d-block my-2 text">link 4</a>
+        <a href="" class="text-decoration-none d-block my-2 text">link 5</a>
+       
+    </div>
+    <div class="col-sm-3">
+        <a href="" class="text-decoration-none d-block my-2 text">link 1</a>
+        <a href="" class="text-decoration-none d-block my-2 text">link 2</a>
+        <a href="" class="text-decoration-none d-block my-2 text">link 3</a>
+        <a href="" class="text-decoration-none d-block my-2 text">link 4</a>
+        <a href="" class="text-decoration-none d-block my-2 text">link 5</a>
+    </div>
+    <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img class="img-fluid" 
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThNNKB5cr-QrUR3WqmVraKHGoTH7g5cSLNIQ5Wj4w15aB_D38NVuAXhijLnG7FLq1OUlo&usqp=CAU" alt="">
+                </div>
+                <div class="col-sm-6">
+                    <h3>Fake Product</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button type="button" class="btn btn-outline-primary">Shop Now</button>
+                </div>
+
+            </div>
+
+          </div>
+        </div>
+    </div>
+   </div>
+</div>
+
+    </div>
+    </div>
+    <!-- search end -->
+
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">SKILLHUB</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+             <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" >
+              Menu
+             </button>
+             <div class="dropdown-menu w-100 alert alert-primary ">
+               <div class="container">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <div class=" px-2 py-4 menu d-flex align-items-center gap-3">
+                      <i class="bi bi-laptop display-4"></i>
+                      <div>
+                        <h6>laptops</h6>
+                        <p>Lorem ipsum dolor sit.</p>
+                      </div>
+                    </div>
+                  </div>
+               </div>
+               <div class="row">
+                <div class="col-sm-4">
+                  <div class=" px-2 py-4 menu d-flex align-items-center gap-3">
+                    <i class="bi bi-laptop display-4"></i>
+                    <div>
+                      <h6>laptops</h6>
+                      <p>Lorem ipsum dolor sit.</p>
+                    </div>
+                  </div>
+                </div>
+             </div>
+             <div class="row">
+              <div class="col-sm-4">
+                <div class=" px-2 py-4 menu d-flex align-items-center gap-3">
+                  <i class="bi bi-laptop display-4"></i>
+                  <div>
+                    <h6>laptops</h6>
+                    <p>Lorem ipsum dolor sit.</p>
+                  </div>
+                </div>
+              </div>
+           </div>
+               </div>
+             </div>
+          </div>
+          <div class="ms-auto">
+            <button data-bs-toggle="collapse" data-bs-target="#search" type="button" class="btn btn-outline-light"><i class="bi bi-search"></i></button>
+            <button data-bs-toggle="offcanvas" data-bs-target="#cart" type="button" class="btn btn-outline-light"><i class="bi bi-cart"></i></button>
+            <button data-bs-toggle="offcanvas" data-bs-target="#login" type="button" class="btn btn-light">login
+                <i class="bi bi-lock"></i></button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- login start -->
+    
+    
+    <div class="offcanvas offcanvas-start"  id="login">
+      <div class="offcanvas-header bg-primary text-light">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Login</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body">
+      
+        <div class="card">
+          <div class="card-header">Login</div>
+          <div class="card-body">
+            <div>
+              <label for="email" class="form-label">First Email</label>
+              <input
+                type="text"
+                class="form-control"
+                id="email"
+                placeholder="Enter Your Email"
+              />
+              <div class="valid-feedback">Looks good!</div>
+              <div class="invalid-feedback">Please choose a username.</div>
+            </div>
+            <div class="mt-2">
+              <label for="password" class="form-label">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="password"
+                placeholder="Enter Your Password"
+              />
+              <div class="valid-feedback">Looks good!</div>
+              <div class="invalid-feedback">Please choose a username.</div>
+            </div>
+            <button type="button" class="btn btn-primary w-100 mt-3">
+              Login
+            </button>
+            <p class="text-center mt-3">
+              Dont Have Account? <a href="#">Create Account</a>
+            </p>
+          </div>
+        </div>
+
+     
+      </div>
+    </div>
+
+    <!-- login end -->
+    <!-- card start -->
+    <div class="offcanvas offcanvas-end"  id="cart">
+      <div class="offcanvas-header bg-primary text-light">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">card</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class=" alert alert-primary mb-0 offcanvas-body">
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-3">
+                <img class="img-fluid" 
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThNNKB5cr-QrUR3WqmVraKHGoTH7g5cSLNIQ5Wj4w15aB_D38NVuAXhijLnG7FLq1OUlo&usqp=CAU" alt="">
+              </div>
+              
+              <div class="col-sm-6">
+                <h6>Fake Product</h6>
+              <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+              
+              <div class="col-sm-3">
+                <strong>45,000/-</strong>
+              </div>
+            </div>
+            <p class="text-center text-success">you have saved 12,440</p>
+            <div class="btn-group w-100" role="group">
+              <button type="button" class="btn btn-outline-danger">Left</button>
+              <button type="button" class="btn btn-outline-primary">Middle</button>
+              <button type="button" class="btn btn-outline-warning">Right</button>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="card">
+          <div class="card-body">
+            
+            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <img class="img-fluid" 
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThNNKB5cr-QrUR3WqmVraKHGoTH7g5cSLNIQ5Wj4w15aB_D38NVuAXhijLnG7FLq1OUlo&usqp=CAU" alt="">
+              </div>
+              
+              <div class="col-sm-6">
+                <h6>Fake Product</h6>
+              <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+              
+              <div class="col-sm-3">
+                <strong>45,000/-</strong>
+              </div>
+            </div>
+            <p class="text-center text-success">you have saved 12,440</p>
+            <div class="btn-group w-100" role="group">
+              <button type="button" class="btn btn-outline-danger">Left</button>
+              <button type="button" class="btn btn-outline-primary">Middle</button>
+              <button type="button" class="btn btn-outline-warning">Right</button>
+            </div>
+
+          </div>
+
+        </div>
+       
+
+      </div>
+        
+    </div>
+    <!-- card end -->
+    <!-- carousel start -->
+    <div class="carousel mt-5 slide" data-bs-ride="carousel" data-bs-interval="1000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-sm-6 text-end">
+              <img  class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThNNKB5cr-QrUR3WqmVraKHGoTH7g5cSLNIQ5Wj4w15aB_D38NVuAXhijLnG7FLq1OUlo&usqp=CAU"  alt="">
+            </div>
+            <div class="col-sm-6 d-flex flex-column justify-content-center align-items-start">
+              <h5>Dell XPS</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <button class="btn btn-primary">Shop now</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="row">
+            <div class="col-sm-6 text-end">
+              <img  class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThNNKB5cr-QrUR3WqmVraKHGoTH7g5cSLNIQ5Wj4w15aB_D38NVuAXhijLnG7FLq1OUlo&usqp=CAU"  alt="">
+            </div>
+            <div class="col-sm-6 d-flex flex-column justify-content-center align-items-start">
+              <h5>Dell XPS</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <button class="btn btn-primary">Shop now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- carousel end -->
+    <!-- feature start -->
+    <div class="bg-primary py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="d-flex gap-4 mt-4s">
+              <i class="bi bi-credit-card display-6"></i>
+              <div>
+                <h6 class="text-light"> secure checkout</h6> 
+                <p >Lorem ipsum dolor sit amet.</p>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-sm-4">
+            <div class="d-flex gap-4 mt-4s">
+              <i class="bi bi-credit-card display-6"></i>
+              <div>
+                <h6 class="text-light"> secure checkout</h6> 
+                <p >Lorem ipsum dolor sit amet.</p>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-sm-4">
+            <div class="d-flex gap-4 mt-4s">
+              <i class="bi bi-credit-card display-6"></i>
+              <div>
+                <h6 class="text-light"> secure checkout</h6> 
+                <p >Lorem ipsum dolor sit amet.</p>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- feature end -->
+    <!-- product start -->
+    <div class="container my-5">
+      <div class="d-flex justify-content-between align-items-center">
+        <h3 class="display-6">Products</h3>
+        <button type="button" class="btn btn-primary btn-sm">View All</button>
+       
+      </div>
+    </div>
+    <!-- product end -->
+  
+    <!-- dummy product start -->
+   <div class="container">
+    <div class="row">
+      <div class="col-sm-4"></div>
+      <div class="card">
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+          <div class=" badge bg-success">Most popular </div>
+          <i class="bi bi-heart"></i>
+        </div>
+
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm-8">
+              <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThNNKB5cr-QrUR3WqmVraKHGoTH7g5cSLNIQ5Wj4w15aB_D38NVuAXhijLnG7FLq1OUlo&usqp=CAU" alt="">
+            </div>
+            <div class="col-sm-4">
+              <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThNNKB5cr-QrUR3WqmVraKHGoTH7g5cSLNIQ5Wj4w15aB_D38NVuAXhijLnG7FLq1OUlo&usqp=CAU" alt="">
+              <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThNNKB5cr-QrUR3WqmVraKHGoTH7g5cSLNIQ5Wj4w15aB_D38NVuAXhijLnG7FLq1OUlo&usqp=CAU" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="card-footer alert alert-primary">
+          <div>
+            <strong>Fske Product</strong>
+            <p>starting price 45555/-</p>
+          </div>
+        </div>
+        <button class="btn btn-outline-primary w-100">Show up</button>
+      </div>
+<img class="img-fluid mt-3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThNNKB5cr-QrUR3WqmVraKHGoTH7g5cSLNIQ5Wj4w15aB_D38NVuAXhijLnG7FLq1OUlo&usqp=CAU" alt="">
+<div class="text-center">
+  <p>Laptop</p>
+  <p>Laptop starting py</p>
+  <p>
+    <i class="text-warning bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    
+  </p>
+</div>    
+</div>
+   </div>
+    <!-- dummy product end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" ></script>
+ 
+  </body>
+</html>
